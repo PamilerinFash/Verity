@@ -6,8 +6,6 @@ node_modules
 dist
 build
 *.log
-.env
-.env.local
 .DS_Store
 /deployments/*.local.json
 /pgdata
@@ -18,3 +16,4 @@ build
 coverage
 *.tsbuildinfo
 next-env.d.ts
+config.bat
