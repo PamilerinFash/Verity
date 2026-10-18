@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-17-return-400-for-a-malformed-account-or-foreign",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-17-return-400-for-a-malformed-account-or-foreign": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-17-return-400-for-a-malformed-account-or-foreign",
+    "origin"
+  ]
+}

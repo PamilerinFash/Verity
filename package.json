@@ -8,11 +8,11 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "bash scripts/dev.sh",
+    "dev": "node init && bash scripts/dev.sh",
     "smoke": "bash scripts/smoke.sh",
     "db:migrate": "pnpm --filter @verity/db migrate",
     "test:contracts": "cd contracts && cargo test",
-    "build": "pnpm -r build",
+    "build": "node init && pnpm -r build",
     "typecheck": "pnpm -r --if-present run typecheck",
     "db:reset": "pnpm --filter @verity/db reset",
     "lint": "pnpm --filter @verity/frontend lint"
